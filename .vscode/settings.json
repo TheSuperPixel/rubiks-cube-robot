@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.ino": "arduino-output",
+        "prun_table.h": "c"
+    }
+}

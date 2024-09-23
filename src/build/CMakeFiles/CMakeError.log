@@ -1,0 +1,40 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/wang/pico2/pico-project-generator/cube_solver/rubiks-cube-robot/src/build/CMakeFiles/CMakeScratch/TryCompile-aO70pM
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_48953/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_48953.dir/build.make CMakeFiles/cmTC_48953.dir/build
+gmake[1]: Entering directory '/home/wang/pico2/pico-project-generator/cube_solver/rubiks-cube-robot/src/build/CMakeFiles/CMakeScratch/TryCompile-aO70pM'
+Building C object CMakeFiles/cmTC_48953.dir/CMakeCCompilerABI.c.obj
+/usr/bin/gcc   -mcpu=cortex-m0plus -mthumb    -v -std=gnu11 -o CMakeFiles/cmTC_48953.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+gcc: warning: '-mcpu=' is deprecated; use '-mtune=' or '-march=' instead
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+OFFLOAD_TARGET_DEFAULT=1
+gcc: error: unrecognized command-line option '-mthumb'
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.4.0-1ubuntu1~22.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-XeT9lY/gcc-11-11.4.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 11.4.0 (Ubuntu 11.4.0-1ubuntu1~22.04) 
+gmake[1]: *** [CMakeFiles/cmTC_48953.dir/build.make:78: CMakeFiles/cmTC_48953.dir/CMakeCCompilerABI.c.obj] Error 1
+gmake[1]: Leaving directory '/home/wang/pico2/pico-project-generator/cube_solver/rubiks-cube-robot/src/build/CMakeFiles/CMakeScratch/TryCompile-aO70pM'
+gmake: *** [Makefile:127: cmTC_48953/fast] Error 2
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/wang/pico2/pico-project-generator/cube_solver/rubiks-cube-robot/src/build/CMakeFiles/CMakeScratch/TryCompile-ZJjy8M
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8c198/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8c198.dir/build.make CMakeFiles/cmTC_8c198.dir/build
+gmake[1]: Entering directory '/home/wang/pico2/pico-project-generator/cube_solver/rubiks-cube-robot/src/build/CMakeFiles/CMakeScratch/TryCompile-ZJjy8M'
+Building C object CMakeFiles/cmTC_8c198.dir/testCCompiler.c.obj
+/usr/bin/gcc   -mcpu=cortex-m0plus -mthumb  -std=gnu11 -o CMakeFiles/cmTC_8c198.dir/testCCompiler.c.obj -c /home/wang/pico2/pico-project-generator/cube_solver/rubiks-cube-robot/src/build/CMakeFiles/CMakeScratch/TryCompile-ZJjy8M/testCCompiler.c
+gcc: warning: ‘-mcpu=’ is deprecated; use ‘-mtune=’ or ‘-march=’ instead
+gcc: error: unrecognized command-line option ‘-mthumb’
+gmake[1]: *** [CMakeFiles/cmTC_8c198.dir/build.make:78: CMakeFiles/cmTC_8c198.dir/testCCompiler.c.obj] Error 1
+gmake[1]: Leaving directory '/home/wang/pico2/pico-project-generator/cube_solver/rubiks-cube-robot/src/build/CMakeFiles/CMakeScratch/TryCompile-ZJjy8M'
+gmake: *** [Makefile:127: cmTC_8c198/fast] Error 2
+
+
+

@@ -1,0 +1,5 @@
+/home/wang/pico2/pico-project-generator/cube_solver/rubiks-cube-robot/src/elf2uf2/CMakeFiles/elf2uf2.dir
+/home/wang/pico2/pico-project-generator/cube_solver/rubiks-cube-robot/src/elf2uf2/CMakeFiles/edit_cache.dir
+/home/wang/pico2/pico-project-generator/cube_solver/rubiks-cube-robot/src/elf2uf2/CMakeFiles/rebuild_cache.dir
+/home/wang/pico2/pico-project-generator/cube_solver/rubiks-cube-robot/src/elf2uf2/boot_uf2_headers/CMakeFiles/edit_cache.dir
+/home/wang/pico2/pico-project-generator/cube_solver/rubiks-cube-robot/src/elf2uf2/boot_uf2_headers/CMakeFiles/rebuild_cache.dir

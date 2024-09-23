@@ -1,0 +1,28 @@
+{
+  "cmake.configureOnOpen": false,
+  "cmake.statusbar.advanced": {
+    "debug": {
+      "visibility": "hidden"
+    },
+    "launch": {
+      "visibility": "hidden"
+    },
+    "build": {
+      "visibility": "hidden"
+    },
+    "buildTarget": {
+      "visibility": "hidden"
+    },
+  },
+  "files.associations": {
+    "*.ino": "c",
+    "stdlib.h": "c",
+    "type_traits": "c",
+    "assert.h": "c",
+    "solve.h": "c",
+    "stdio.h": "c",
+    "stdarg.h": "c",
+    "oled_data.h": "c",
+    "prun_table.h": "c"
+  },
+}
